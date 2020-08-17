@@ -18,7 +18,7 @@ header#cabecalho-principal{
     align-items: center;
 }
 
-#pontuacao-jogo{
+div#pontuacao-jogo{
     background-color: #61b1ea;
     border-radius: 30px;
     padding: 5px 50px;
@@ -33,12 +33,63 @@ header#cabecalho-principal{
     align-items: center;
 }
 
-#pontuacao-jogo img{
+div#pontuacao-jogo img{
     margin-right: 15px;
 }
 
-#nome-jogo{
+div#nome-jogo{
     font-weight: bolder;
     font-size: 27px;
     margin-right: 15px;
+}
+
+div#esquerda{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    margin-left: 15px;
+}
+
+div#cor-atual{
+    margin-top:10px ;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 15px;
+}
+
+section#corpo{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+}
+
+section#corpo div#esquerda button#btn-responder{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 45px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+section#corpo div#direita{
+    /*width: 40%;*/
+}
+
+div#containner footer#rodape{
+    background-color: rgb(26,26,32);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
