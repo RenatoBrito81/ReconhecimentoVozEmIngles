@@ -79,10 +79,6 @@ section#corpo div#esquerda button#btn-responder{
     margin-top: 10px;
 }
 
-section#corpo div#direita{
-    /*width: 40%;*/
-}
-
 div#containner footer#rodape{
     background-color: rgb(26,26,32);
     position: fixed;
