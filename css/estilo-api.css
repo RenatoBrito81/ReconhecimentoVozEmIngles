@@ -55,7 +55,8 @@ div#esquerda{
 }
 
 div#cor-atual{
-    margin-top:10px ;
+    margin-top:10px;
+    margin-bottom: 10px;
     height: 200px;
     width: 200px;
     border: 10px solid black;
@@ -88,4 +89,28 @@ div#containner footer#rodape{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+span#cor-na-caixa{
+    margin-top: 7px;
+}
+
+div#resposta{
+    display: flex;
+    flex-direction: row;
+}
+span#resposta-cor{
+    font-style: italic;
+}
+
+div#resposta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+div#l1{
+    font-weight: bold;
+    color: yellow;
 }

@@ -73,6 +73,12 @@ if(window.SpeechRecognition || window.webkitSpeechRecognition){
         var transcricaoAudio = evento.results[0][0].transcript.toUpperCase();
         var respostaCorreta = document.getElementById("cor-na-caixa").innerText.toUpperCase();
 
+        //Seta a cor padrão
+        document.getElementById("cor-padrao").innerText = respostaCorreta.toUpperCase();
+
+        //Seta a resposta idenficada
+        document.getElementById("resposta-cor").innerText = transcricaoAudio.toUpperCase();
+
         //Verifica se a cor foi acertada
         if(transcricaoAudio === respostaCorreta){
             //Atualiza a pontuação

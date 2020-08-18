@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="../css/estilo-api.css">
 
-    <title>Reconhecimento de Voz</title>
+    <title>Super Mario</title>
 
     <link rel="shortcut icon" href="../img/icone.png" type="image/x-icon">
 </head>
@@ -24,8 +24,19 @@
         <section id="corpo">
             <div id="esquerda">
                 <h3>FALE O NOME DA COR EM INGLÊS</h3>
-                <span id="cor-na-caixa">BLACK</span>
+                <div id="cor-do-jogo">
+                    COLOR:&nbsp;<span id="cor-na-caixa">BLACK</span>
+                </div>
                 <div id="cor-atual"></div>
+                <div id="resposta">
+                    <div id="l1">ÚLTIMA RESPOSTA</div>
+                    <div id="l2">
+                        PADRÃO:&nbsp;<span id="cor-padrao"></span>
+                    </div>
+                    <div id="l3">
+                        RECONHECIDO:&nbsp;<span id="resposta-cor"></span>
+                    </div>
+                </div>
                 <button id="btn-responder">RESPONDER</button>
             </div>
             <div id="direita">
